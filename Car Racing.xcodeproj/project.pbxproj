@@ -10,9 +10,12 @@
 		CA2C15922A249C2000F2506B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C15912A249C2000F2506B /* AppDelegate.swift */; };
 		CA2C15942A249C2000F2506B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C15932A249C2000F2506B /* SceneDelegate.swift */; };
 		CA2C15962A249C2000F2506B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C15952A249C2000F2506B /* ViewController.swift */; };
-		CA2C15992A249C2000F2506B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2C15972A249C2000F2506B /* Main.storyboard */; };
 		CA2C159B2A249C2200F2506B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2C159A2A249C2200F2506B /* Assets.xcassets */; };
 		CA2C159E2A249C2200F2506B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2C159C2A249C2200F2506B /* LaunchScreen.storyboard */; };
+		CA2C15A62A249C5B00F2506B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2C15A52A249C5B00F2506B /* Main.storyboard */; };
+		CA2C15A82A249C8D00F2506B /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C15A72A249C8D00F2506B /* Enum.swift */; };
+		CA2C15AA2A249CA100F2506B /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C15A92A249CA100F2506B /* StartViewController.swift */; };
+		CA2C15AC2A249CA500F2506B /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2C15AB2A249CA500F2506B /* Extension + UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +23,13 @@
 		CA2C15912A249C2000F2506B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA2C15932A249C2000F2506B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CA2C15952A249C2000F2506B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA2C15982A249C2000F2506B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA2C159A2A249C2200F2506B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2C159D2A249C2200F2506B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA2C159F2A249C2200F2506B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2C15A52A249C5B00F2506B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CA2C15A72A249C8D00F2506B /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		CA2C15A92A249CA100F2506B /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		CA2C15AB2A249CA500F2506B /* Extension + UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				CA2C15912A249C2000F2506B /* AppDelegate.swift */,
 				CA2C15932A249C2000F2506B /* SceneDelegate.swift */,
 				CA2C15952A249C2000F2506B /* ViewController.swift */,
-				CA2C15972A249C2000F2506B /* Main.storyboard */,
+				CA2C15A52A249C5B00F2506B /* Main.storyboard */,
 				CA2C159A2A249C2200F2506B /* Assets.xcassets */,
 				CA2C159C2A249C2200F2506B /* LaunchScreen.storyboard */,
 				CA2C159F2A249C2200F2506B /* Info.plist */,
+				CA2C15A72A249C8D00F2506B /* Enum.swift */,
+				CA2C15A92A249CA100F2506B /* StartViewController.swift */,
+				CA2C15AB2A249CA500F2506B /* Extension + UIView.swift */,
 			);
 			path = "Car Racing";
 			sourceTree = "<group>";
@@ -125,9 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2C15A62A249C5B00F2506B /* Main.storyboard in Resources */,
 				CA2C159E2A249C2200F2506B /* LaunchScreen.storyboard in Resources */,
 				CA2C159B2A249C2200F2506B /* Assets.xcassets in Resources */,
-				CA2C15992A249C2000F2506B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA2C15AA2A249CA100F2506B /* StartViewController.swift in Sources */,
 				CA2C15962A249C2000F2506B /* ViewController.swift in Sources */,
+				CA2C15AC2A249CA500F2506B /* Extension + UIView.swift in Sources */,
 				CA2C15922A249C2000F2506B /* AppDelegate.swift in Sources */,
+				CA2C15A82A249C8D00F2506B /* Enum.swift in Sources */,
 				CA2C15942A249C2000F2506B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +159,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CA2C15972A249C2000F2506B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CA2C15982A249C2000F2506B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CA2C159C2A249C2200F2506B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
